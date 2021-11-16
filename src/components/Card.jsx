@@ -24,7 +24,7 @@ function Card(props) {
       <div className="card-body">
         <h6 className="card-title">Catégorie: {categorie}</h6>
         <p className="card-text">Product's descrition.</p>
-        <img className="logo" src={urlImageProductLocal} alt="Un logo" />
+        <img className="logo" src={urlImageProductLocal} alt="Une image" />
 
         <Counter itemId={itemId} />
         <button
