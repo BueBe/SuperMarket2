@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  cursor: default;
+}
+
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.card {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.faviconPanier {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  border: none;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+#suppr {
+  cursor: pointer;
+}
